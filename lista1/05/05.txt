@@ -1,0 +1,2 @@
+Foi utilizado o Singleton na classe CardFactory porque ela não guarda as informações, apenas instancia objetos.
+Factory Method é um padrão de projeto que encapsula a criação dos objetos assim respeitando e reforçando  o conceito de orientação a objetos.
