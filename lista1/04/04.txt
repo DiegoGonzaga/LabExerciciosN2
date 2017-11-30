@@ -1,5 +1,4 @@
 O Factory Method é um padrão de projeto que que encapsula a criação dos objetos. 
 Isso acontece com as Coleções, pois todas implememtam a classe Iterable que contém um Iterator. 
-Cada coleção guarda um objeto dentro dela e também uma variável que do próprio tipo para realizar uma espécie de chave encadeada.
-Assim que adiciona um novo item, essa variavel do próprio tipo guardará esse novo item dentro dela e assim acontece sucessivamente formando uma lista. 
+Cada coleção guarda um objeto dentro dela que é responesável por fazer a  interação dos elementos da coleção independendtemente do tipo da coleção.
 Igualmente ao Factory Method, essa criação acaba não sendo feita diretamente pelo programador, a criação foi encapsulada dentro da própria coleção.
